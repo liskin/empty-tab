@@ -9,5 +9,10 @@
 	},
 	"chrome_url_overrides": {
 		"newtab": "index.html"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{bb4fb93d-d860-4041-b9f2-3727df7a001e}"
+		}
 	}
 }
