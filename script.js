@@ -1,5 +1,6 @@
 function body_input(e) {
 	document.location.hash = '#' + encodeURIComponent(e.target.innerHTML);
+	document.title = document.body.innerText;
 }
 
 function document_click(e) {
@@ -20,6 +21,7 @@ document.addEventListener('click', document_click);
 
 if (document.location.hash.startsWith('#')) {
 	document.body.innerHTML = decodeURIComponent(document.location.hash.slice(1));
+	document.title = document.body.innerText;
 } else {
 	document.body.innerHTML = '';
 }
