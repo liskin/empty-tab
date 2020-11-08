@@ -5,6 +5,7 @@ editable blank page. Such page drains less battery than the default newtab
 page, is less distracting, and being editable allows users to label their
 browser windows.
 
-## Screenshot
+## Screenshots
 
-![screenshot](https://user-images.githubusercontent.com/300342/98469565-b780e200-21e0-11eb-9145-fbc0150fe71a.png)
+![light mode](https://user-images.githubusercontent.com/300342/98470358-5f001380-21e5-11eb-8667-4b74d45a3d0b.png)
+![dark mode](https://user-images.githubusercontent.com/300342/98470360-5f98aa00-21e5-11eb-8926-dfbcb1c10110.png)
