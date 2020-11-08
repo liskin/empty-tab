@@ -4,7 +4,7 @@ function body_input(e) {
 }
 
 function document_click(e) {
-	if (!document.body.innerText) {
+	if (!document.body.innerText.trim()) {
 		document.body.focus();
 	} else {
 		document.body.blur();
