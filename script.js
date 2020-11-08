@@ -15,8 +15,15 @@ function body_click(e) {
 	e.stopPropagation();
 }
 
+function escape_key(e) {
+	if (e.key === "Escape") {
+		document.body.blur();
+	}
+}
+
 document.body.addEventListener('input', body_input);
 document.body.addEventListener('click', body_click);
+document.body.addEventListener('keydown', escape_key);
 document.addEventListener('click', document_click);
 
 if (document.location.hash.startsWith('#')) {
