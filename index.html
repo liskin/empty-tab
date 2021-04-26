@@ -10,13 +10,14 @@
 				}
 			}
 
-			body {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				transform: translate(-50%, -50%);
-				width: 80%;
+			html {
+				display: grid;
+				height: 100%;
+			}
 
+			body {
+				max-width: 80%;
+				place-self: center;
 				text-align: center;
 				font-size: 20vmin;
 			}
